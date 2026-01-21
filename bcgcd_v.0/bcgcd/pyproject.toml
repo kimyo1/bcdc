@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bcgcd3"
+version = "0.1.0"
+description = "Bayesian Class-conditional Gaussian mixture model for Cluster dynamical states"
+authors = [
+    { name = "Hyowon Kim" }
+]
+requires-python = ">=3.6"
+keywords = ["galaxycluster", "dynamicalstate", "gmm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+dependencies = [
+    "tqdm",
+    "pandas",
+    "scikit-learn"
+]
+
+[tool.setuptools]
+py-modules = ["bcgcd3","bcgcd3proj"]
+
+[tool.setuptools.package-data]
+bcgcd3 = ["*.pkl"]
+
+

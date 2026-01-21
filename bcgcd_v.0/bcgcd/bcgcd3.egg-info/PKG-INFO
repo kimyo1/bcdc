@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: bcgcd3
+Version: 0.1.0
+Summary: Bayesian Class-conditional Gaussian mixture model for Cluster dynamical states
+Author: Hyowon Kim
+Keywords: galaxycluster,dynamicalstate,gmm
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: scikit-learn

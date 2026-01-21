@@ -1,0 +1,7 @@
+bcgcd3.py
+pyproject.toml
+bcgcd3.egg-info/PKG-INFO
+bcgcd3.egg-info/SOURCES.txt
+bcgcd3.egg-info/dependency_links.txt
+bcgcd3.egg-info/requires.txt
+bcgcd3.egg-info/top_level.txt
