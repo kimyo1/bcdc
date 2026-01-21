@@ -5,12 +5,14 @@ Now we are working on it...
 
 To run this,
 
-go to the folder  bcdc_v.0/bcdc (folder including pyproject.toml)
+go to the folder  
+
+_bcdc_v.1.0/bcdc (folder including pyproject.toml)_
 
 install it
 
-pip install -e .
+_pip install -e ._
 
 Then check it is installed
 
-pip show bcdc
+_pip show bcdc_
