@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: bcdc3
+Version: 0.1.0
+Summary: Bayesian classifier for dynamical states of clusters of galaxies
+Author-email: Hyowon Kim <hwkim1011@gmail.com>
+Keywords: galaxycluster,dynamicalstate,gmm
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: scikit-learn

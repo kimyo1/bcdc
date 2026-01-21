@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bcdc"
+version = "0.1.0"
+description = "Bayesian classifier for dynamical states of clusters of galaxies"
+authors = [
+    { name = "HyowonKim", email = "hwkim1011@gmail.com", linsence ="GPL-2.0 license"}
+]
+requires-python = ">=3.6"
+keywords = ["galaxycluster", "dynamicalstate", "gmm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn"
+]
+
+[tool.setuptools]
+py-modules = ["bcdc3","bcdc3proj"]
+
+[tool.setuptools.package-data]
+bcgcd3 = ["*.pkl"]
+
+
