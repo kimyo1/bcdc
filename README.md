@@ -51,7 +51,7 @@ We have two modules inside of it
 
 *You can check detailed usages in the example Jupyter notebook file.*
 
-Error
+Caution
 -------
 We don't provide an environment for the module. So, you need to manage your module path.
 When the module is not found. 
