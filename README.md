@@ -2,7 +2,8 @@ bcdc
 -------
 Bayesian classifier for the dynamical state of clusters
 
-Please cite Kim et al.,2026, Accepted (arxiv:2603.10319)
+Please cite Kim et al., A&A, 708, A262 (2026)
+https://doi.org/10.1051/0004-6361/202557129
 
 
 Now we are working on it...
